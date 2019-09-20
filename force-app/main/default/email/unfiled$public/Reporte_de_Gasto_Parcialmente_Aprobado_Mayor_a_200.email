@@ -1,0 +1,1 @@
+Reporte de Gasto numero {!Reporte_de_Gastos__c.Number__c} se encuentra Parcialmente Aprobado y su monto es {!Reporte_de_Gastos__c.Monto__c}. Por lo tanto es Mayor a 200.

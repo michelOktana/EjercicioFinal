@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_sin_impuesto_debe_ser_menor_total</fullName>
+    <active>true</active>
+    <errorConditionFormula>Monto_Total__c &lt;=  Monto_Sin_Impuesto__c</errorConditionFormula>
+    <errorDisplayField>Monto_Sin_Impuesto__c</errorDisplayField>
+    <errorMessage>El monto sin impuesto debe ser menor al monto total</errorMessage>
+</ValidationRule>

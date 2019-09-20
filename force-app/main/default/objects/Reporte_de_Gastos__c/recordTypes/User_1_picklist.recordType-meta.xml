@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_1_picklist</fullName>
+    <active>true</active>
+    <label>User 1 picklist</label>
+    <picklistValues>
+        <picklist>Encabezado__c</picklist>
+        <values>
+            <fullName>Encabezado</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado__c</picklist>
+        <values>
+            <fullName>En proceso</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

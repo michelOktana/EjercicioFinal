@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reporte de Compra No Aprobado</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reporte de compra No Aprobado</name>
+    <style>none</style>
+    <subject>Reporte de Compra No Aprobado</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

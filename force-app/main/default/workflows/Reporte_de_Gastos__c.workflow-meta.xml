@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Notificacion_tiempo_de_expiracion</fullName>
+        <ccEmails>michel@oktana.io</ccEmails>
+        <description>Notificacion tiempo de expiracion</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>usuario3@oktana.io</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Notificacion_dias_para_expiracion</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_de_Gasto_Aprobado</fullName>
+        <description>Reporte de Gasto Aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>usuario1@oktana.io</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>usuario3@oktana.io</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Reporte_de_compra_Aprobado</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_de_Gasto_Aprobado_y_Cerrado</fullName>
+        <ccEmails>michel@oktana.io</ccEmails>
+        <description>Reporte de Gasto Aprobado y Cerrado</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Reporte_de_Gasto_Aprobado_y_Cerrado</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_de_Gasto_No_Aprobado</fullName>
+        <description>Reporte de Gasto No Aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>usuario1@oktana.io</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Reporte_de_compra_No_Aprobado</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_de_Gasto_Parcialmente_Aprobado_Mayor_a_200</fullName>
+        <description>Reporte de Gasto Parcialmente Aprobado Mayor a 200</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>usuario3@oktana.io</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Reporte_de_Gasto_Parcialmente_Aprobado_Mayor_a_200</template>
+    </alerts>
+</Workflow>

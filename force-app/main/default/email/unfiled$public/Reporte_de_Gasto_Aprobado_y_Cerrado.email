@@ -1,0 +1,3 @@
+El reporte de gasto numero {!Reporte_de_Gastos__c.Number__c} se ha aprobado y cerrado satisfactoriamente!
+
+Tiene un cheque disponible por una totalidad de ${!Reporte_de_Gastos__c.Monto__c}

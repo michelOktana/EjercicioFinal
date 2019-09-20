@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notificacion Dias para expiracion</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notificacion dias para expiracion</name>
+    <style>none</style>
+    <subject>Notificacion Dias para expiracion</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
